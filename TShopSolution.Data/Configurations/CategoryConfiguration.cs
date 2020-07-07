@@ -1,12 +1,9 @@
-﻿using eShopSolution.Data.Entities;
-using eShopSolution.Data.Enums;
+﻿using TShopSolution.Data.Enums;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using System;
-using System.Collections.Generic;
-using System.Text;
+using TShopSolution.Data.Entities;
 
-namespace eShopSolution.Data.Configurations
+namespace TShopSolution.Data.Configurations
 {
     public class CategoryConfiguration : IEntityTypeConfiguration<Category>
     {
