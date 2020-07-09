@@ -439,15 +439,15 @@ namespace TShopSolution.Data.Migrations
                 columns: new[] { "Key", "Value" },
                 values: new object[,]
                 {
-                    { "HomeTitle", "This is home page of eShopSolution" },
-                    { "HomeKeyword", "This is keyword of eShopSolution" },
-                    { "HomeDescription", "This is description of eShopSolution" }
+                    { "HomeTitle", "This is home page of TShopSolution" },
+                    { "HomeKeyword", "This is keyword of TShopSolution" },
+                    { "HomeDescription", "This is description of TShopSolution" }
                 });
 
             migrationBuilder.InsertData(
                 table: "AppRoles",
                 columns: new[] { "Id", "ConcurrencyStamp", "Description", "Name", "NormalizedName" },
-                values: new object[] { new Guid("8d04dce2-969a-435d-bba4-df3f325983dc"), "d41ae191-d8f2-42bd-aec2-fad217c24b93", "Administrator role", "admin", "admin" });
+                values: new object[] { new Guid("8d04dce2-969a-435d-bba4-df3f325983dc"), "bf700ce6-53d1-4353-9c52-3b92341afb4c", "Administrator role", "admin", "admin" });
 
             migrationBuilder.InsertData(
                 table: "AppUserRoles",
@@ -457,7 +457,7 @@ namespace TShopSolution.Data.Migrations
             migrationBuilder.InsertData(
                 table: "AppUsers",
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Dob", "Email", "EmailConfirmed", "FirstName", "LastName", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
-                values: new object[] { new Guid("69bd714f-9576-45ba-b5b7-f00649be00de"), 0, "c2dc0a4d-68a1-44f9-a6e3-2fe5f82955f3", new DateTime(1997, 12, 14, 0, 0, 0, 0, DateTimeKind.Unspecified), "tuantran.sw@gmail.com", true, "Tuan", "Anh", false, null, "tuantran.sw@gmail.com", "admin", "AQAAAAEAACcQAAAAEF/bgnvv8Cxy9hSQ141bGHLRQgLLIwWg91/aqGJ4Zi80I5tpxq9CDVh8SaVIZBbAmw==", null, false, "", false, "admin" });
+                values: new object[] { new Guid("69bd714f-9576-45ba-b5b7-f00649be00de"), 0, "64236a9c-b81c-477b-b22d-09311a4689eb", new DateTime(1997, 12, 14, 0, 0, 0, 0, DateTimeKind.Unspecified), "tuantran.sw@gmail.com", true, "Tuan", "Anh", false, null, "tuantran.sw@gmail.com", "admin", "AQAAAAEAACcQAAAAED8FdBaKt/F67CNdEnk0G2Dx4QahjFUUr7T3m2ZvsoPj9GUIKHQLcwyMvESwidlA1Q==", null, false, "", false, "admin" });
 
             migrationBuilder.InsertData(
                 table: "Categories",
@@ -480,7 +480,7 @@ namespace TShopSolution.Data.Migrations
             migrationBuilder.InsertData(
                 table: "Products",
                 columns: new[] { "Id", "DateCreated", "OriginalPrice", "Price" },
-                values: new object[] { 1, new DateTime(2020, 6, 19, 6, 56, 39, 333, DateTimeKind.Local).AddTicks(2498), 100000m, 200000m });
+                values: new object[] { 1, new DateTime(2020, 7, 4, 7, 46, 45, 461, DateTimeKind.Local).AddTicks(4717), 100000m, 200000m });
 
             migrationBuilder.InsertData(
                 table: "CategoryTranslations",

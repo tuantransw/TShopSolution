@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
-namespace eShopSolution.Data.Entities
+namespace TShopSolution.Data.Entities
 {
     public class Product
     {
@@ -13,6 +13,7 @@ namespace eShopSolution.Data.Entities
         public int Stock { set; get; }
         public int ViewCount { set; get; }
         public DateTime DateCreated { set; get; }
+
 
         public List<ProductInCategory> ProductInCategories { get; set; }
 

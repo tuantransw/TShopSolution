@@ -1,12 +1,10 @@
-﻿using eShopSolution.Data.Configurations;
-using eShopSolution.Data.Entities;
-using eShopSolution.Data.Extensions;
+﻿using TShopSolution.Data.Entities;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
-using System.Collections.Generic;
-using System.Text;
+using TShopSolution.Data.Configurations;
+using TShopSolution.Data.Extensions;
 
 namespace TShopSolution.Data.EF
 {
